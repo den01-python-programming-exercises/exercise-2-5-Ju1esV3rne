@@ -1,5 +1,8 @@
 def main():
-    #write your code below this line
+    while True:
+        text = input("Carry on?")
+        if text == "no":
+            break
 
 if __name__ == '__main__':
     main()
